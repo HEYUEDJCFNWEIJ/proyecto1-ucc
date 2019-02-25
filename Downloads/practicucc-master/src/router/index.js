@@ -1,11 +1,15 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import 'element-ui/lib/theme-chalk/index.css';
+
+
 
 import Inicio from '../vistas/Inicio';
 import Contacto from '../vistas/Contacto';
 import Eventos from '../vistas/Eventos';
 import Galeria from '../vistas/Galeria';
 import Alquiler from '../vistas/Alquiler';
+
 
 Vue.use(Router);
 
